@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.garden.repository;
 
 import ch.qos.logback.core.util.StringUtil;
 

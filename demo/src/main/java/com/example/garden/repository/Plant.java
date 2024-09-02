@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.garden.repository;
 
 import jakarta.persistence.*;
 import lombok.Getter;

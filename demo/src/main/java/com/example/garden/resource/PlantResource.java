@@ -1,7 +1,7 @@
-package com.example.demo.resource;
+package com.example.garden.resource;
 
-import com.example.demo.repository.Plant;
-import com.example.demo.repository.PlantType;
+import com.example.garden.repository.Plant;
+import com.example.garden.repository.PlantType;
 import lombok.Getter;
 import lombok.Setter;
 

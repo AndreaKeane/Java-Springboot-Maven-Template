@@ -1,9 +1,9 @@
-package com.example.demo.controller;
+package com.example.garden.controller;
 
-import com.example.demo.repository.Plant;
-import com.example.demo.repository.PlantRepository;
-import com.example.demo.repository.PlantType;
-import com.example.demo.resource.PlantResource;
+import com.example.garden.repository.Plant;
+import com.example.garden.repository.PlantRepository;
+import com.example.garden.repository.PlantType;
+import com.example.garden.resource.PlantResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

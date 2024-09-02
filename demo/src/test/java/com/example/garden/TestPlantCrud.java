@@ -1,7 +1,7 @@
-package com.example.demo;
+package com.example.garden;
 
-import com.example.demo.controller.PlantController;
-import com.example.demo.resource.PlantResource;
+import com.example.garden.controller.PlantController;
+import com.example.garden.resource.PlantResource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.NoSuchElementException;
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK, classes = DemoApplication.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK, classes = GardenApplication.class)
 public class TestPlantCrud {
 
     @Autowired

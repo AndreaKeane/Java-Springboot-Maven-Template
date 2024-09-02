@@ -1,0 +1,9 @@
+name: tabs
+services:
+  app:
+    image: 'practice-app:latest'
+    build:
+      context: .
+    container_name: app
+    ports:
+      - "8080:8080"
