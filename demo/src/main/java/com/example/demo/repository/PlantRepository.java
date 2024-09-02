@@ -6,10 +6,10 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface PlantRepository extends JpaRepository<Plant, Long> {
 
-    List<User> findByName(String name);
+    List<Plant> findByName(PlantType name);
 
-    User findById(long id);
+    Plant findById(long id);
 
 }
