@@ -36,6 +36,7 @@ public class TestPlantCrud {
         plantController.deletePlant(expectedPlant.getId());
 
         // Try Read Deleted Plant
+        plantController.inspectCache("PlantCache");
         Assertions.assertThrows(NoSuchElementException.class, () -> {
             plantController.readPlant(expectedPlant.getId());
         });

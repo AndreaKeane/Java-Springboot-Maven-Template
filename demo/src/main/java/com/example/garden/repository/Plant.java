@@ -29,4 +29,14 @@ public class Plant {
         this.variety = variety;
         this.minSpacing = minSpacing;
     }
+
+    @Override
+    public String toString() {
+        return "Plant{" +
+                "id=" + id +
+                ", name=" + name +
+                ", variety='" + variety + '\'' +
+                ", minSpacing=" + minSpacing +
+                '}';
+    }
 }
